@@ -421,10 +421,10 @@
       <plugin>ign_ros2_control/IgnitionSystem</plugin> 
     </hardware>
         
-    <xacro:joint_ros2_control name="j0" initial_pos="$(j0_pos)"/>   
-    <xacro:joint_ros2_control name="j1" initial_pos="$(j1_pos)"/>   
-    <xacro:joint_ros2_control name="j2" initial_pos="$(j2_pos)"/>   
-    <xacro:joint_ros2_control name="j3" initial_pos="$(j3_pos)"/>   
+    <xacro:joint_ros2_control name="j0" initial_pos="$(arg j0_pos)"/>   
+    <xacro:joint_ros2_control name="j1" initial_pos="$(arg j1_pos)"/>   
+    <xacro:joint_ros2_control name="j2" initial_pos="$(arg j2_pos)"/>   
+    <xacro:joint_ros2_control name="j3" initial_pos="$(arg j3_pos)"/>   
 
   </ros2_control>
 
