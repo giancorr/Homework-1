@@ -5,7 +5,7 @@ This repository has been created in order to fulfill the first homework of Robot
 ###  	:hammer: Build
 First of all, clone this repo in your ros2_ws/src folder
 ```
-git clone https://github.com/PasFar/homework1.git
+git clone https://github.com/giancorr/homework1.git
 ```
 Then, build the packages using the following command inside the ros2_ws folder and source the setup.bash file 
 ```
